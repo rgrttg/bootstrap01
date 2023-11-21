@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Meine Webseite mit Bootstrap</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<!-- Hier kommt der Inhalt deiner Webseite -->
+<body>
+    <main>
+        <div class="container">
+            <h1>The Bootstrap Chat</h1>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="row gap-0">
+                    <div class="col-4">
+                        <div class="px-4">
+                            <input type="text" placeholder="Search..." class="form-control my-3">
+                        </div>
+                        <div class="list-group m-3">
+                            <a href="#" class="list-group-item list-group-item-action border-0">
+                                <div class="d-flex">
+                                    <img width="50" height="50" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light">
+                                    <div class="m-2">
+                                        Maria Müller<br>
+                                        <div class="small">online</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action border-0">
+                                <div class="d-flex">
+                                    <img width="50" height="50" src="../../Pictures/hippie.png">
+                                    <div class="m-2">
+                                        The Dude<br>
+                                        <div class="small">offline</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action border-0">
+                                <div class="d-flex">
+                                    <img width="50" height="50" src="https://avataaars.io/?avatarStyle=Circle&topType=NoHair&accessoriesType=Prescription02&facialHairType=BeardMedium&facialHairColor=Platinum&clotheType=GraphicShirt&clotheColor=Gray01&graphicType=Skull&eyeType=Wink&eyebrowType=RaisedExcited&mouthType=Tongue&skinColor=Tanned">
+                                    <div class="m-2">
+                                        Professor Proton<br>
+                                        <div class="small">online</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="p-3 d-flex flex-column gap-4 overflow-auto h-75">
+                            <!-- Chat-Beginn -->
+                            <div class="d-flex flex-row gap-3">
+                                <!-- erstes -->
+                                <div>
+                                    <img width="50" height="50" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light">
+                                    <div class="text-muted small text-nowrap">
+                                        2:43 am
+                                    </div>
+                                </div>
+                                <!-- zweites -->
+                                <div class="flex-shrink-1 bg-light rounded py-2 px-3">
+                                    <div class="font-weight-bold mb-1">
+                                        Maria Müller
+                                    </div>
+                                    Wie lautet Ihre Antwort?
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row-reverse gap-3">
+                                <!-- erstes -->
+                                <div>
+                                    <img width="50" height="50" src="../../Pictures/professor.png">
+                                    <div class="text-muted small text-nowrap">
+                                        2:44 am
+                                    </div>
+                                </div>
+                                <!-- zweites -->
+                                <div class="flex-shrink-1 bg-light rounded py-2 px-3">
+                                    <div class="font-weight-bold mb-1">
+                                        Professor Proton
+                                    </div>
+                                    Lorem ipsum dolor sit amet, vis erat denique in, dicunt prodesset te vix.
+                                </div>
+                            </div>
+                            <!-- weitere -->
+                            <div class="d-flex flex-row gap-3">
+                                <!-- erstes -->
+                                <div>
+                                    <img width="50" height="50" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light">
+                                    <div class="text-muted small text-nowrap">
+                                        2:45 am
+                                    </div>
+                                </div>
+                                <!-- zweites -->
+                                <div class="flex-shrink-1 bg-light rounded py-2 px-3">
+                                    <div class="font-weight-bold mb-1">
+                                        Maria Müller
+                                    </div>
+                                    Ich verstehe nur Bahnhof!
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row-reverse gap-3">
+                                <!-- erstes -->
+                                <div>
+                                    <img width="50" height="50" src="../../Pictures/professor.png">
+                                    <div class="text-muted small text-nowrap">
+                                        2:46 am
+                                    </div>
+                                </div>
+                                <!-- zweites -->
+                                <div class="flex-shrink-1 bg-light rounded py-2 px-3">
+                                    <div class="font-weight-bold mb-1">
+                                        Professor Proton
+                                    </div>
+                                    The quick brown fox jumps over the lazy dog:-)
+                               </div>
+                            </div>
+                            <!-- Chat-Ende -->
+                        </div>
+                        <div class="p-4 border-top">
+                            <div class="input-group">
+                                <input type="text" placeholder="Type your message" class="form-control">
+                                <button class="btn btn-primary">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Bootstrap JavaScript (optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
